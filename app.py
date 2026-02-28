@@ -19,6 +19,8 @@ import calendar
 from datetime import datetime, timedelta
 import matplotlib
 matplotlib.use('TkAgg')
+from database import init_db
+from auth import AuthWindow
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
